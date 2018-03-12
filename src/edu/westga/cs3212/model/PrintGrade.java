@@ -29,16 +29,16 @@ public class PrintGrade {
 		String finalGrade = "";
 		
 		if(grade<= 52) {
-			finalGrade = grade + "";
+			finalGrade = "-";
 		}
 		else if(grade == 100) {
-			finalGrade = "+" + grade;
+			finalGrade = "+" ;
 		}
 		else if(grade% 10 >=7) {
-			finalGrade = "+" + grade;
+			finalGrade = "+";
 		}
 		else if(grade% 10 <=2) {
-			finalGrade = "-" + grade;
+			finalGrade = "-";
 		}
 		return finalGrade;
 	}
