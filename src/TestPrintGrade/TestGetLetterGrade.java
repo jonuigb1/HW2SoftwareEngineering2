@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import edu.westga.cs3212.model.PrintGrade;
 
-class TestPrintGrade {
+class TestGetLetterGrade {
 
 	@Test
 	void testGradeAUpperBoundary() {
